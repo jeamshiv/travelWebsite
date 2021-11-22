@@ -1311,7 +1311,7 @@ a.bg-gold-dark:focus, a.bg-gold-dark:hover, button.bg-gold-dark:focus, button.bg
     background-color: #68583a!important;
 }
 .bg-blue-dark {
-    background-color: #0F00FF!important;
+    background-color: #15524e!important;
 }
 a.bg-blue-dark:focus, a.bg-blue-dark:hover, button.bg-blue-dark:focus, button.bg-blue-dark:hover {
     background-color: #000!important;
@@ -2924,8 +2924,8 @@ https://flickity.metafizzy.co
     background-size: cover;
 }
 .u-bg-gradient {
-    background: radial-gradient(circle at 35% center, #032e53 0, #0f00ff 65%);
-    background-color: #0f00ff;
+    background: radial-gradient(circle at 35% center, #032e53 0, #15524e 65%);
+    background-color: #15524e;
 }
 .u-bg-gradient-lg {
     background: radial-gradient(circle at 40% center, #032e53 25%, #011b31 125%);
@@ -4031,7 +4031,7 @@ form input.st-search-input {
     width: 300px;
 }
 .wh-box .what-box, .wh-box .when-box, .wh-box .where-box {
-    background-color: #0F00FF;
+    background-color: #15524e;
     min-height: 152px;
     padding-left: 62px;
     padding-right: 62px;
@@ -5553,7 +5553,8 @@ a[title="Interactive JavaScript maps"] {
     visibility: visible;
 }
 .site-nav {
-    background-color: #0F00FF;
+    /*background-color: #a8cdcb;*/
+    background-color: white;
     border: none;
     border-radius: 0;
     color: #fff;
@@ -5600,7 +5601,8 @@ a[title="Interactive JavaScript maps"] {
 .site-nav__logo {
     display: block;
     height: auto;
-    max-width: 120px;
+    /*max-width: 120px;*/
+    max-height: 80px;
     width: 100%}
 @media(min-width:768px) {
     /*.site-nav__logo {
@@ -5725,7 +5727,7 @@ a[title="Interactive JavaScript maps"] {
     overflow: auto;
 }
 }.site-nav .dropdown .dropdown-menu {
-    background-color: #011b31;
+    background-color: #15524e;
     border: none;
     border-radius: 0;
     border-bottom-left-radius: 3px;
@@ -5770,7 +5772,7 @@ a[title="Interactive JavaScript maps"] {
 }.site-nav .dropdown-toggle, .site-nav .navbar-nav>.nav-item>.nav-link {
     background: 0 0;
     border: none;
-    color: #fff;
+    color: #323333;
     display: block;
     font-family: mont-semibold-webfont, sans-serif!important;
     font-size: .75rem;
@@ -5779,7 +5781,9 @@ a[title="Interactive JavaScript maps"] {
     padding: 1rem;
     position: relative;
     text-transform: uppercase;
-    width: 100%}
+    width: 100%;
+    font-weight: 600;
+    }
 @media(min-width:768px) {
     .site-nav .dropdown-toggle, .site-nav .navbar-nav>.nav-item>.nav-link {
     padding: 1.5rem .75rem;
