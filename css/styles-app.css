@@ -5602,12 +5602,13 @@ a[title="Interactive JavaScript maps"] {
     display: block;
     height: auto;
     /*max-width: 120px;*/
-    max-height: 80px;
+    max-height: 40px;
     width: 100%}
 @media(min-width:768px) {
-    /*.site-nav__logo {
-    max-width: 203px;
-}*/
+    .site-nav__logo {
+    /*max-width: 203px;*/
+    max-height: 40px;
+}
 }.site-nav__tel-text {
     color: #fff;
     font-family: mont-semibold-webfont, sans-serif!important;
