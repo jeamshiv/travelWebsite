@@ -5607,7 +5607,7 @@ a[title="Interactive JavaScript maps"] {
 @media(min-width:768px) {
     .site-nav__logo {
     /*max-width: 203px;*/
-    max-height: 40px;
+    max-height: 60px;
 }
 }.site-nav__tel-text {
     color: #fff;
